@@ -1,12 +1,12 @@
 import random
 def mainscreen():
     name=input("enter your Name:")
-    print("WELCOME,",name,"! TO A SIMPLE WORD SEARCH GAME")
+    print("WELCOME, {}! TO A SIMPLE WORD SEARCH GAME".format(name))
     print("GAME RULES:")
-    print("In this game you have to find a word based on the given topic,so be attentive and be patient and try to find the word with in 6 attempts")
-    print("lets rock and move on to the game, all the best",name)
+    print("In this game, your challenge is to find a word related to the given topic. Stay attentive, be patient, and aim to discover the word within 6 attempts.")
+    print("Let's dive into the game. Best of luck, {}!".format(name))
     print("****************************************************************************************************")
-    print("Try to guess the Word in 6 Tries or less")
+    print("Try to guess the word in 6 tries or fewer.")
     wsearch()
     print()
 def wsearch():
