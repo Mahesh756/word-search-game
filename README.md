@@ -1,6 +1,6 @@
-**Word Search Game**
+# Word Search Game..?
 
-**Overview**
+## Overview
 
 This is a simple word search game written in Python. The main objective is to find the hidden word within a given number of trials.
 
